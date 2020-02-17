@@ -3,8 +3,20 @@ Cecilia Morales Arriaga, A01337202
 
 ENVIRONMENT'S CHARACTERIZATION
 
+Each queen represents a rational agent because it perceives the environment 
+(board and other queens) and acts to achieve the best results. In this 
+case, to choose a cell, she has to check if there is no other queen in rows, 
+columns, and diagonals.
 
+I think this exercise is an example of a deterministic environment because 
+the next state is determined by the current state and the agent´s actions. 
+When queen A is placed in a certain cell, the board is updated. So, when 
+the program is looking where to place queen B, it must checks the updated 
+board and act according to the situation. This means, to place queen B
+in cell N if it follows the rules or looking for another cell if there is 
+an issue. This action will repeat itself until the seven queens are placed. 
 
+:) 
 """
 
 def printBoard(board):
